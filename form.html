@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link rel="icon" href="https://s3-us-west-2.amazonaws.com/staticresources123/site/other/landings/php-contact-form/contact-form.png">
+</head> <br> 
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Regesartion Details</legend>
+        <label for="uname">UserName</label>
+        Name: <input type="text" name="Yerriswamy G M" value="" placeholder="enter your name" id="uname"/> <br>
+        Password: <input type="password" name="Ravi" value="" pattern="gf4565@#ABHCDFF"/><br>
+    </fieldset> <br> 
+        Email: <input type="email" name="kallappa" value=""/> <br> 
+        Gender: <input type="radio" name="gender" value="male"/>Male <br> 
+        <input type="radio" name="gender" value="female"/>Female <br>
+        Courses: <input type="checkbox" name="technologies" value="Javascript" /> Javascript<br>
+        <input type="checkbox" name="technologies" value="Java" />Java <br>
+        Address: <textarea name="" placeholder="enter your address" cols="30" rows="10" /></textarea> <br>
+        Date: <input type="date" name="DOB" /> <br/>
+        Date And Time: <input type="datetime-local" name="" /> <br>
+        Time: <input type="time" name=""/> <br>
+        City:
+        <select name="places" size="2" multiple>
+            <option value="Raichur">Raichur</option>
+            <option value="Ballari">Ballari</option>
+            <option value="Gadag">Gadag</option>
+            <option value="Mysore">Mysore</option>
+            <option value="Gulbarga">Gulbarga</option>
+        </select> <br/>
+        
+        <input list="colors"/>
+        <datalist id="colors">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="orange">Orange</option>
+        </datalist> <br>
+        
+        Contact: <input type="tel" placeholder="123-4567-432" pattern="[0-9] {3}-[0-9] {4}-[0-9] {3}"> <br>
+        <input type="file" name="" id=""/> <br>
+        <button>submit</button>
+    </form>
+</body>
+</html>
