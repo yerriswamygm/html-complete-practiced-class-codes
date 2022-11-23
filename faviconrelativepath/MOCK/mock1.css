@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainBlock{
+    width: 100%;
+    height: 100vh;
+}
+
+.divmainBlock{
+    
+    background-color:black ;
+}
+
+.divBlock{
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+    height: 45px;
+    
+    
+}
+.divBlock1{
+    display: flex;
+    list-style-type: none;
+    
+    justify-content:space-around;
+     margin-left: 650px;
+     color: white;
+     position: relative;
+     top: -20px;
+    
+    
+    
+}
+
+.saffroon{
+    color: sandybrown;
+}
+
+.mainBlock2{
+    width: 100%;
+    height: 100vh;
+}
+
+.divBlock2{
+    
+    text-align: center;
+    padding: 20px;
+
+}
+
+div img{
+    float: right;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    right: 250px;
+    padding: 30px;
+}
+
+.header1{
+    position: relative;
+    left: 450px;
+}
+
+.header2{
+    position: relative;
+left: 300px;
+}
+
+.header3{
+position: relative;
+left: 300px;
+}

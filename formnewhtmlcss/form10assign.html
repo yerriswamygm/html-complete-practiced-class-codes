@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php" method="get" >
+        First name:<input type="text" name="fname" autcomplete="on" pattern="(?=.*[a-z]){1}"><br>
+        E-mail: <input type="email" name="email"><br>
+        Mobile No.<input type="tel" pattern="[6-9]{1}[0-9]{9}">
+        <input type="submit">
+        <!-- audion tag -->
+        <audio controls autoplay loop>
+            <source src="./sample-15s.mp3">
+        </audio>
+        <!-- video tag -->
+        <video controls autoplay loop>
+            <source src="./sample_640x360.mp4" width="250" height="100">
+        </video>
+        <!-- in video using iframe -->
+        <iframe src="./sample_640x360.mp4" width="150" height="150"></iframe>
+        <!-- from youtube copy the iframe and embed the yoututube video in iframe -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-X95Ju6mz4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
+      </form>
+      
+</body>
+</html> 

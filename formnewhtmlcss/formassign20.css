@@ -1,0 +1,27 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 30px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+table{
+    box-sizing: border-box;
+    margin: 10px;
+    margin: black;
+    background-color: whitesmoke;
+    width: 700px;
+    height: 300px;
+    padding: 20px 10px 20px 10px;
+    margin-left: 350px;
+}
+
+.BC{
+    background-color: #e8d2c4;
+}
